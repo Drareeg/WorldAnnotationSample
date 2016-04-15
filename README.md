@@ -1,0 +1,2 @@
+# WorldAnnotationSample
+java cucumber @WorldObject
