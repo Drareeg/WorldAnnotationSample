@@ -8,5 +8,7 @@ import java.lang.annotation.RetentionPolicy;
  */
 @Retention(RetentionPolicy.RUNTIME)
 public @interface WorldObject {
-    String value();
+    String DEFAULTVALUE = "verysecretkey";
+
+    String value() default DEFAULTVALUE;
 }

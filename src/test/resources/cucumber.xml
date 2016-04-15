@@ -7,7 +7,4 @@
 
     <context:annotation-config/>
 
-    <bean id="scanner" class="world.WorldObjectScanner"/>
-    <bean id="world" class="world.World"/>
-
 </beans>
